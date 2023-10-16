@@ -1881,17 +1881,17 @@ p.nominalBounds = new cjs.Rectangle(0,-45.3,9.5,45.3);
 					self.fireworks_mc.x = evt.target.snapX + 50;
 					self.fireworks_mc.y = evt.target.snapY;
 					
-					//mySound = new Sound (soundholder_mc);
-					//mySound.loadSound("deskbell.mp3", true);
+					mySound = new Sound (soundholder_mc);
+					mySound.loadSound("deskbell.mp3", true);
 					
 					if (sound_flag==false){
 						console.info("no sound")
 					}else{
 					// attempt to load a wav sound
-					/*soundPlayer = new Sound();
+					soundPlayer = new Sound();
 					soundPlayer.setVolume(60);
 					soundPlayer.loadSound("deskbell.mp3", true);
-					soundPlayer.onload = function() {soundPlayer.start();}*/
+					soundPlayer.onload = function() {soundPlayer.start();}
 						playSound("deskbell");
 					}
 					

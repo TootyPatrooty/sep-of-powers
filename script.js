@@ -1887,7 +1887,7 @@ p.nominalBounds = new cjs.Rectangle(0,-45.3,9.5,45.3);
 					if (sound_flag==false){
 						console.info("no sound")*/
 					}else{
-					attempt to load a wav sound
+					//attempt to load a wav sound
 					soundPlayer = new Sound();
 					soundPlayer.setVolume(60);
 					soundPlayer.loadSound("deskbell.mp3", true);

@@ -1892,7 +1892,7 @@ p.nominalBounds = new cjs.Rectangle(0,-45.3,9.5,45.3);
 					soundPlayer.setVolume(60);
 					soundPlayer.loadSound("deskbell.mp3", true);
 					soundPlayer.onload = function() {soundPlayer.start();}*/
-						playSound("deskbell");
+						playSound("deskbell.mp3");
 					}
 					
 					if(number_correct_int == 15){	//FINISHED
